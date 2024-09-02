@@ -1,3 +1,5 @@
+@media (max-width : 5000px) {
+
 .align-nav {
     display: flex;
     justify-content: center;
@@ -178,3 +180,109 @@
     color: #333;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   }
+}
+@media (max-width: 560px) {
+  .align-nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  ul li {
+      background-color: rgb(15, 121, 242);
+      padding: 15px;
+      border-radius: 30px;
+      margin: 5px;
+      list-style: none;
+      float: none;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+      color: rgb(213, 10, 142);
+  }
+
+  ul li:hover {
+      background-color: rgb(26, 13, 79);
+  }
+
+  ul li:active {
+      background-color: blueviolet;
+  }
+
+  body {
+      background-attachment: fixed;
+      background-size: cover;
+      background-image: url('cool-background (1).png');
+      font-family: 'Oswald', sans-serif !important;
+      margin: 0;
+      padding: 0;
+  }
+
+  .displayText {
+      font-size: 30px;
+      text-align: center;
+      margin-top: 8px;
+      color: #a8a8f7;
+  }
+
+  .mainDisplayText {
+      font-size: 40px;
+      text-align: center;
+      color: #8176fd;
+      margin-top: 10px;
+  }
+
+  .card-w {
+      padding: 5px;
+      font-size: 24px;
+  }
+
+  .card-bg {
+      padding: 10px;
+      padding-right: 20px;
+      border-radius: 15px;
+      margin: 5px;
+      display: block;
+  }
+
+  .card-body {
+      width: auto;
+  }
+
+  .card-inner {
+      perspective: 1000px;
+  }
+
+  footer {
+      padding: 10px 0;
+  }
+
+  .footer-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer-section {
+      flex: 1 1 100%;
+      margin: 10px 0;
+  }
+
+  .align-desc {
+      width: auto;
+      border: 2px solid #050114;
+      font-size: 20px;
+      padding: 15px;
+      border-radius: 40px;
+      margin: 20px;
+      box-shadow: 0 0 50px 15px rgba(0, 0, 0, 0.75);
+  }
+
+  .cube {
+      width: 150px;
+  }
+
+  .face {
+      width: 150px;
+      height: 150px;
+  }
+}
