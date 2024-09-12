@@ -10,6 +10,8 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
   <link rel="icon" href="2.png">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
 </head>
 
@@ -41,6 +43,7 @@
 <h1 class="displayText">I'm a</h1>
 <h2 class="mainDisplayText">Full Stack Developer</h2>
 <br><br><br>
+<div data-aos="flip-left">
 <div class="align-desc">
   Hello! I’m Yasidu Udayanga Pathiraja, a dedicated Fullstack Developer specializing in both frontend and backend
   development. I excel in technologies like JavaScript, Java, and modern frameworks like Springboot ,React ,Angular , creating seamless and user-focused
@@ -49,10 +52,14 @@
   about my projects.
 
 </div>
+</div>
 <br><br>
 <div class=" d-block justify-content-center" style="height: 100vh;">
   <div class="row" style="margin-right: 20px;">
-    <div class="col">
+    
+    <div data-aos="zoom-in">
+
+     <div class="col">
       <div class="card-inner">
         <div class="card-bg" style="width: 18rem; height: 10;">
           <img src="war.jpeg" alt="..." style="height:150px;width: 200px;margin:20px; border-radius: 30px;">
@@ -64,7 +71,11 @@
         </div>
       </div>
     </div>
-    <div class="col">
+
+</div>
+
+<div data-aos="zoom-in-down">
+     <div class="col">
       <div class="card-inner">
         <div class="card-bg" style="width: 18rem; height: 10;">
           <img src="weatherApp.jpeg" alt="..." style="height:150px;width: 200px;margin:20px; border-radius: 30px;">
@@ -76,7 +87,10 @@
         </div>
       </div>
     </div>
-    <div class="col">
+</div>    
+
+<div data-aos="zoom-in-right">
+     <div class="col">
       <div class="card-inner">
         <div class="card-bg" style="width: 18rem; height: 10;">
           <img src="cms.jpeg" alt="..." style="height:150px;width: 200px;margin:20px; border-radius: 30px;">
@@ -89,6 +103,9 @@
       </div>
     </div>
   </div>
+</div>
+
+
 
 
 <!-- ======================================FOOTER============================================= -->
@@ -124,6 +141,11 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="app.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 </body>
 
 </html>

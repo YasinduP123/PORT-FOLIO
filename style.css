@@ -151,7 +151,7 @@
     padding: 20px 0;
     font-size: 13px;
     font-family: Arial, sans-serif;
-    
+    position: relative;
   }
 
   .footer-container {
