@@ -88,7 +88,9 @@
     background-color: #0e0424;
     color: #fff;
     padding: 20px 0;
+    font-size: 13px;
     font-family: Arial, sans-serif;
+    
   }
 
   .footer-container {
@@ -223,7 +225,7 @@
       font-family: 'Oswald', sans-serif !important;
       margin: 0 auto;
       padding: 0;
-      position: fixed;
+      overflow-x:hidden ;
   }
 
   .displayText {
@@ -297,5 +299,5 @@
 
 .col{
   align-items: center;
-  margin-left: 100px;
+  margin-left: 20px;
 }
